@@ -7,7 +7,7 @@ const ArticleItem = props => {
 		<div className="col col-xs-12 col-sm-6 col-md-6 col-lg-4">
 			<div className="card-container">
 				<div className="card-image">
-					<img className="img responsive" src={article.urlToImage} alt={article.urlToImage} /> 
+					<img className="img img-responsive" src={article.urlToImage} alt={article.urlToImage} /> 
 				</div>
 				<div className="card-title">
 					{article.title}
@@ -17,7 +17,7 @@ const ArticleItem = props => {
 				</div>
 				<div className="card-footer">
 					<div className="card-publication">
-						<a href={article.url}>{article.source.name}</a>
+						<a href={article.url} target="_blank">{article.source.name}</a>
 					</div>
 					<div className="card-date">
 						{article.publishedAt.split("T")[0]}

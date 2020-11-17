@@ -58,7 +58,7 @@ class Home extends React.Component {
         )}
         {apiError && <p>Could not fetch any articles. Please try again.</p>}
         <p style={{ textAlign: "center", margin: 20 }}>
-          Powered by <a href="https://newsapi.org/">NewsAPI.org</a>
+          Powered by <a href="https://newsapi.org/" target="_blank">NewsAPI.org</a>
         </p>
       </div>
     );
