@@ -1,0 +1,26 @@
+$brand-primary:           #616263;
+$brand-white:             #FFFFFF;
+$brand-black:             #000000;
+$brand-black-light:       #111111;
+$brand-black-lighter:     #1E2021;
+$brand-grey:              #EEEEEE;
+$brand-grey-light:        #E8E8E8;
+$brand-grey-lighter:      #F4F4F4;
+$brand-grey-dark:         #8E8F90;
+$brand-grey-darker:       #616263;
+$brand-red:               #EA433D;
+$brand-green:             #00C853;
+$brand-green-darker:      #12773c;
+$brand-blue:              #2196F3;
+* {
+  box-sizing: border-box;
+}
+body {
+    background-color: $brand-grey;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
